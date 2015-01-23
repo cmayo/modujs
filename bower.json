@@ -1,0 +1,20 @@
+{
+  "name": "modujs",
+  "version": "0.0.2",
+  "homepage": "https://github.com/cmayo/modujs",
+  "authors": [
+    "Carlos Mayo <carlos.mayo@gmail.com>"
+  ],
+  "description": "A tiny module loader",
+  "main": "dist/modujs.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmayo/modujs.git"
+  },
+  "ignore": [
+    "*",
+    "!dist/*",
+    "!*.md"
+  ]
+}
