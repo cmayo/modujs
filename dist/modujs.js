@@ -1,4 +1,4 @@
-/* modujs 0.0.2 - 2015-01-26 */
+/* modujs 0.0.3 - 2015-01-26 */
 (function (window) {
     "use strict";
 
