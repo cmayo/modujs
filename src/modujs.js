@@ -58,7 +58,7 @@
         modules[cname] = {
             name: cname,
             deps: deps,
-            cb: callback
+            cb: Object.prototype.toString.call(callback) == '[object Function]'?callback:function(){return callback;}
         }
 
     }

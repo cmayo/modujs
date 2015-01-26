@@ -1,4 +1,4 @@
-/* modujs 0.0.2 - 2015-01-23 */
+/* modujs 0.0.2 - 2015-01-26 */
 (function (window) {
     "use strict";
 
@@ -59,7 +59,7 @@
         modules[cname] = {
             name: cname,
             deps: deps,
-            cb: callback
+            cb: Object.prototype.toString.call(callback) == '[object Function]'?callback:function(){return callback;}
         }
 
     }
